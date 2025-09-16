@@ -124,6 +124,7 @@ a {
 /*  Activité à marseille */
   .section-marseille
 {width: 100%; 
+ margin-bottom: 20px;
     
 
 }
@@ -146,10 +147,8 @@ justify-content: space-around;
 }
 .div-marseille img
 {
-    width: 100%;
-    height: auto;
-    /* width: 250px;
-    height: 400px; */
+     width: 250px;
+    height: 350px; 
     border-top-left-radius: 20px;
     border-top-right-radius: 20px; 
      object-fit:cover
