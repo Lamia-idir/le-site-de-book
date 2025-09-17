@@ -13,6 +13,30 @@
     color: var(--main-color);
 }
 
+                   /* nav nav nav nav  */
+ .taille-logo
+ {
+  width: 50px;   /* largeur du logo */
+  
+}
+
+ 
+ nav
+ { display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+ }         
+ ul
+ {display: flex;
+ list-style: none;
+ gap: 40px;
+}
+
+ul li:hover {
+  color: blue; /* texte devient bleu au survol */
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -132,9 +156,9 @@ a {
 {
 background-color: white;
 border-radius: 20px;
-filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+filter: drop-shadow(0px 3px 15px rgba(16, 16, 16, 0.1));
 gap: 15px;
-/* width: 100%; */
+ 
 
 }
 .div-marseille
@@ -144,10 +168,11 @@ flex-direction: row;
     
 justify-content: space-around;
 
+
 }
 .div-marseille img
 {
-     width: 250px;
+      width:250px; 
     height: 350px; 
     border-top-left-radius: 20px;
     border-top-right-radius: 20px; 
