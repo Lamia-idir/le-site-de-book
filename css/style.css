@@ -211,7 +211,7 @@ a {
 .image-heberge
 { display: flex;
       flex-wrap: wrap;         /* permet de passer à la ligne */
-      gap: 20px;               /* espace entre les cartes */
+      gap: 30px;               /* espace entre les cartes */
       justify-content: flex-start;
       box-sizing: border-box;
      }
@@ -233,7 +233,7 @@ a {
 
 .image-heberge img 
 {
-      width: 213px;
+      width: 200px;
       height: 130px;
       object-fit: cover;
       
@@ -301,9 +301,13 @@ a {
   .section-marseille
 {width: 100%; 
  margin-bottom: 20px;
-    
+ 
+}
+.section-marseille  h2
+{  padding: 10px;
 
 }
+
 .article-marseille
 {
 background-color: white;
