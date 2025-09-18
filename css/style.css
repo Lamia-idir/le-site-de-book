@@ -114,8 +114,32 @@ ul li:hover {
     }
 
     .filter-btn:hover {
-      background: #7fafd2;
+      background: #DEEBFF;
     }
+    /* information */
+            
+    .espace
+
+    {  display: flex;
+        flex-direction: row;
+         gap:15px;
+        align-items: center;
+        margin-bottom: 20px;
+
+    }
+    .round
+    { border-radius:50%;
+      border:1px solid #dfd7d7;
+    
+     }
+     
+     .round img
+    { padding: 2px;
+
+    }
+
+
+
 
 body {
     display: flex;
@@ -238,6 +262,8 @@ background-color: white;
 border-radius: 20px;
 filter: drop-shadow(0px 3px 15px rgba(16, 16, 16, 0.1));
 gap: 15px;
+
+
  
 
 }
@@ -247,6 +273,7 @@ gap: 15px;
 flex-direction: row;
     
 justify-content: space-around;
+   
 
 
 }
@@ -258,7 +285,10 @@ justify-content: space-around;
     border-top-right-radius: 20px; 
      object-fit:cover
 
+
 }
+
+
 .article-marseille h4
 { text-align: center;
 padding-bottom: 20px;
