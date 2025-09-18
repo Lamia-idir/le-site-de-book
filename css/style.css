@@ -223,15 +223,13 @@ a {
       border-radius: 15px;
     overflow: hidden; 
      
-      
-      
+          
 }    
 
 .text-im
 { padding-left: 10px;
 
 }
-
 
 .image-heberge img 
 {
@@ -241,8 +239,8 @@ a {
       
     }
     
-    .text-im h3, p
-    {
+ .text-im h3, p
+{
     margin-top: 2px;
     margin-bottom: 2px;
 
@@ -335,16 +333,12 @@ justify-content: space-around;
     border-top-right-radius: 20px; 
      object-fit:cover
 
-
 }
-
 
 .article-marseille h4
 { text-align: center;
 padding-bottom: 20px;
 }
-
-
 
                         /*   fooooter */
 
