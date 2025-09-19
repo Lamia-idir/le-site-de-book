@@ -37,6 +37,10 @@ ul li:hover {
   color: blue; /* texte devient bleu au survol */
   text-decoration: overline;
 }
+  header p
+  { padding-bottom: 20px;
+
+  }
      /* bouton recherche  */
  .search-box {
       display: flex;
@@ -46,7 +50,8 @@ ul li:hover {
        overflow: hidden;
        width: fit-content;
       background-color: #f8f8f8; 
-      border-bottom: 20px;
+      
+    
     
     }
     .location img
