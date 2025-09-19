@@ -357,6 +357,7 @@ footer
    justify-content:space-around;
   background-color: var(--main-bg-color);
   margin: 20px;
+  padding-bottom: 20px;
 
 
 }
