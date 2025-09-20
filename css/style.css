@@ -219,6 +219,7 @@ a {
       gap: 30px;               /* espace entre les cartes */
       justify-content: flex-start;
       box-sizing: border-box;
+     
      }
 
 
@@ -226,7 +227,7 @@ a {
 .heberge
  {background: #fff;
       border-radius: 15px;
-    overflow: hidden; 
+     overflow: hidden;  
      
           
 }    
