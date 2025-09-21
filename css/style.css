@@ -449,7 +449,20 @@ footer
         
        gap: 40px; 
       }
+      /*    activité de marseille  */
+      .div-marseille img
+    {
+      width: 215px; 
+      height: 200px; 
+           }
+    .article-marseille
+    {  gap: 30px;
 
+    }
+    .article-marseille h4
+     {  font-size: 12px;
+
+      }
       
 }
 
