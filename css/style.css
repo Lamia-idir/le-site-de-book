@@ -79,8 +79,9 @@ ul li:hover {
       font-weight: bold;
     
     }
-
-    .btn {
+     button[ type="submit"]
+   
+     {
       background-color: var(--main-color);
       color: white;
       border: none;
@@ -89,7 +90,7 @@ ul li:hover {
       font-weight: bold;
     }
 
-    .btn:hover {
+   button[ type="submit"]:hover {
       background-color: #0056b3;
        }
 
@@ -228,6 +229,7 @@ a {
  {background: #fff;
       border-radius: 15px;
      overflow: hidden;  
+     width:fit-content;
      
           
 }    
