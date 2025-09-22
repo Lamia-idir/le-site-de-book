@@ -529,8 +529,8 @@ footer
   background-color: #b1b7bc;
 
 }
-ul li:hover
-{  
+ul li:hover  .ligne-horizontal
+{ background-color: #0065FC;
 
 }
 h1 
