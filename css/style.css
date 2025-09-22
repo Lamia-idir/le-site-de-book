@@ -39,7 +39,7 @@
    
 
  }         
- ul
+  nav ul
  {display: flex;
  list-style: none;
  gap: 40px;
@@ -482,6 +482,65 @@ footer
 
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
+
+    
+     nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+  }
+
+   ul 
+    { display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%; 
+    padding: 0;
+    margin: 0;
+   }
+  
+
+   .taille-logo
+   { width: 80px;
+     height: auto;
+
+   }
+   
+  ul li:hover
+  { text-decoration: none;
+
+  }
+
+    /* nav::after {
+  content: "";
+  width: 100%;   /* invisible par défaut */
+  /* height: 2px; */
+  /* background: #b1b7bc; /* bleu */
+  /* margin: 0;  */
+  /* padding: 0; */
+ 
+
+.ligne-horizontal
+{ width: 100%;
+  height: 2px;
+  background-color: #b1b7bc;
+
+}
+ul li:hover
+{  
+
+}
+h1 
+ { font-size: 30px;
+  width:400px; /* largeur fixée */
+  word-wrap: break-word; /* force le passage à la ligne */
+}
+  
+
+
+  
     /* ... */
 }
