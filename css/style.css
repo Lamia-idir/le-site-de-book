@@ -34,14 +34,21 @@
  nav
  { display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
     margin-bottom: 30px;
+      }
+    
+ .ligne-horizontal {
+  display: none;
+}
+
    
 
- }         
+         
   nav ul
  {display: flex;
  list-style: none;
+ 
  gap: 40px;
 }
 
@@ -488,6 +495,7 @@ footer
      nav {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     gap: 16px;
     padding: 16px;
@@ -495,11 +503,11 @@ footer
 
    ul 
     { display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width:100%; 
+    justify-content: flex-start;
+    align-items:center;
     padding: 0;
     margin: 0;
+    gap: 200px;
    }
   
 
@@ -538,7 +546,26 @@ h1
   width:400px; /* largeur fixée */
   word-wrap: break-word; /* force le passage à la ligne */
 }
-  
+      /* filters */
+       .filters-list
+    { display: grid;
+     grid-template-columns: 1fr 1fr; /* 2 colonnes */
+     grid-template-rows: auto auto;  /* 2 lignes */
+     gap: 40px; /* espace entre les cases */
+    }
+     .filter-btn {  
+      width: 200px;
+      gap: 30px;;
+      
+       
+    }
+    
+      
+      
+      
+    
+
+
 
 
   
