@@ -564,18 +564,49 @@ footer
       width: 150px;
      
     
+    
     } 
+    .hebergements-and-populaires
+    {  
+    display: flex ;
+    flex-direction:column ;
+
+
+      }
+    .hebergements-and-populaires .hebergements
+    { 
+    background-color: transparent;
+     }
+
+     .heberge
+      {  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+
+      }
+
     .hebergements
     { order: 2;
       background-color: transparent;
+      display: grid;
+     grid-template-columns: 1fr; /*     1 colonnes */
+    
+    
+     margin-left: 0;
+
+
 
 
 
     }
     .populaires
     { order: 1;
-      display: flex;  
-      flex-direction: column;
+        
+     display: grid;
+     grid-template-columns: 1fr; /*     1 colonnes */
+     
+    
+     margin-left: 0;
+    
+      
 
     }
    
