@@ -113,6 +113,11 @@ ul li:hover {
       background-color: #0056b3;
        }
 
+       .logo-recherche
+       { display: none;
+
+       }
+
         /*  filtre */
       .filters {
       display: flex;
@@ -547,10 +552,17 @@ footer
 { background-color: #0065FC;
 
 }
-/* h1 
- { font-size: 30px;
-  width:400px; /* largeur fixée */
-  /* word-wrap: break-word; force le passage à la ligne */
+.logo-recherche
+       { display:block;
+
+       }
+button[ type="submit"]
+  { display: none;
+
+  }
+
+
+
  
       /* filters */
        .filters-list
