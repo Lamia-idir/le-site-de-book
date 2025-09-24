@@ -267,21 +267,13 @@ a {
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     max-width: 100%;
-    /* empêche de dépasser */
     box-sizing: border-box;
 
 }
 
-/* .image-heberge img {
-    width: 200px;
-    height: 130px;
-    object-fit: cover;
-
-
-} */
 .image-heberge img {
     width: 100%;
-    /* height: 20%; */
+    
 
 }
 
@@ -367,40 +359,48 @@ p {
     border-radius: 20px;
     filter: drop-shadow(0px 3px 15px rgba(16, 16, 16, 0.1));
     gap: 15px;
+    }
+
+.section-marseille {
+        width: 100%;
+
+    }
 
 
+    .div-marseille {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;
 
+        margin: 0;
+    }
 
-}
-
-.div-marseille {
-    display: flex;
-    flex-direction: row;
-
-    justify-content: space-around;
-
-
-
-}
-
-.div-marseille img {
-    width: 250px;
-    height: 350px;
+    .div-marseille img {
+        width: 100%;
+        height: 300px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     object-fit: cover
-}
+    }
+
+
+
+
+
 
 .article-marseille h4 {
     text-align: center;
     padding-bottom: 20px;
+
 }
 
 /*   fooooter */
 
 footer {
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
     background-color: var(--main-bg-color);
     margin: 20px;
     padding-bottom: 20px;
@@ -414,7 +414,7 @@ footer {
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
     h1 {
-        font-size: 15px;
+        font-size:15px;
     }
 
     p {
@@ -479,33 +479,16 @@ footer {
         font-size: 13px;
     }
 
-    /* .image-heberge img 
-{
-      width: 250px;
-        }
-      
-      .image-heberge {
-        
-       gap: 40px; 
-      } */
-    /*    activité de marseille  */
-    /* .div-marseille img {
-        width: 215px;
-        height: 200px;
-    }
+    
 
-    .article-marseille {
-        gap: 30px;
-
-    }
 
     .article-marseille h4 {
-        font-size: 12px;
+        font-size: 14px;
 
-    } */
+    } 
 
 }
- .section-marseille {
+ /* .section-marseille {
         width: 100%;
 
     }
@@ -522,13 +505,21 @@ footer {
 
     .div-marseille img {
         width: 100%;
-    }
+    } */
 
 
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 768px) {
+         
+  h2 
+  { font-size: 12px;
 
+  }
+    .main-container {
+    min-width: 375px;
+    
+}
 
     nav {
         display: flex;
@@ -697,34 +688,28 @@ footer {
         
     } */
 
-    .section-marseille
+    /* .section-marseille
     { width: 100%;
 
-    }
+    } */
     
     .div-marseille {
         display: flex;
         flex-direction: column;
     }
 
-    .div-marseille img {
+    /* .div-marseille img {
         width: 100%;
 
-    }
-
-
-
-
-
-
-
-
+    } */
 
 
     footer {
+         width: 100%;
         display: flex;
         flex-direction: column;
         width: 100%;
+        margin-left: none;
         padding: 60px;
         margin: 0;
 
