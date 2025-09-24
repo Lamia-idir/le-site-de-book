@@ -17,7 +17,6 @@
 .taille-logo {
     width: 50px;
    
-
 }
 
 /* taille body */
@@ -181,7 +180,7 @@ body {
 .main-container {
     width: 100%;
     max-width: 1440px;
-    padding: 0 50px;
+    padding: 0 50px; 
     box-sizing: border-box;
 }
 
@@ -380,10 +379,11 @@ p {
 footer {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: var(--main-bg-color);
-    margin: 20px;
+     margin: 20px; 
     padding-bottom: 20px;
+
 
 
 }
@@ -610,10 +610,8 @@ footer {
         width: 100%;
         display: flex;
         flex-direction: column;
-        width: 100%;
-        margin-left: none;
-        padding: 60px;
-        margin: 0;
+        padding-left: 20px;
+        margin: 0px;
 
     }
 
