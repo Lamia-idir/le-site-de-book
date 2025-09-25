@@ -13,23 +13,23 @@
     color: var(--main-color);
 }
 
-    /* nav nav nav nav  */
+/* nav nav nav nav  */
 .taille-logo {
     width: 50px;
-   
+
 }
 
 /* taille body */
 h1 {
     font-size: 20px;
-
+}
+h3 {
+    font-size: 12px;
 }
 
 body p {
     font-size: 14px;
-
 }
-
 
 nav {
     display: flex;
@@ -45,7 +45,6 @@ nav {
 nav ul {
     display: flex;
     list-style: none;
-
     gap: 40px;
 }
 
@@ -56,7 +55,6 @@ ul li:hover {
 
 header p {
     padding-bottom: 20px;
-
 }
 
 /* bouton recherche  */
@@ -68,13 +66,11 @@ header p {
     overflow: hidden;
     width: fit-content;
     background-color: #f8f8f8;
-
 }
 
 .location img {
     width: 30px;
     height: auto;
-
 }
 
 .color-bag {
@@ -92,7 +88,6 @@ header p {
     margin-left: 8px;
     font-size: 14px;
     font-weight: bold;
-
 }
 
 button[ type="submit"] {
@@ -110,7 +105,6 @@ button[ type="submit"]:hover {
 
 .logo-recherche {
     display: none;
-
 }
 
 /*  filtre */
@@ -125,7 +119,6 @@ button[ type="submit"]:hover {
     display: flex;
     flex-direction: row;
     gap: 15px;
-
 }
 
 .filters span {
@@ -142,33 +135,28 @@ button[ type="submit"]:hover {
     background: white;
     cursor: pointer;
     font-weight: bold;
-
 }
 
 .filter-btn:hover {
     background: #DEEBFF;
 }
 
-                    /* information */
-
+/* information */
 .espace {
     display: flex;
     flex-direction: row;
     gap: 15px;
     align-items: center;
     margin-bottom: 20px;
-
 }
 
 .round {
     border-radius: 50%;
     border: 1px solid #dfd7d7;
-
 }
 
 .round img {
     padding: 2px;
-
 }
 
 body {
@@ -176,11 +164,10 @@ body {
     justify-content: center;
 }
 
-
 .main-container {
     width: 100%;
     max-width: 1440px;
-    padding: 0 50px; 
+    padding: 0 50px;
     box-sizing: border-box;
 }
 
@@ -217,7 +204,7 @@ a {
     color: var(--main-bg-color);
 }
 
-                         /****** Hebergements And Populaires ***********/
+/****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -230,14 +217,13 @@ a {
     box-sizing: border-box;
 }
 
-                      /****** Hebergements ***********/
+/****** Hebergements ***********/
 .hebergements {
     width: 65%;
 }
 
 .hebergements h2 {
     margin-bottom: 40px;
-
 }
 
 .heberge {
@@ -246,41 +232,36 @@ a {
     overflow: hidden;
     width: fit-content;
 }
+
 .image-heberge {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     max-width: 100%;
     box-sizing: border-box;
-
 }
 
 .image-heberge img {
     width: 100%;
-
-
 }
 
 .text-im {
     padding-left: 10px;
-
 }
 
 .text-im h3,
 p {
     margin-top: 2px;
     margin-bottom: 2px;
-
 }
 
 .btn-affiche {
     font-weight: bold;
     margin-top: 40px;
     margin-bottom: 0;
-
 }
 
-                        /****** Populaires ***********/
+/****** Populaires ***********/
 .populaires {
     width: 32%;
 }
@@ -325,17 +306,15 @@ p {
     margin-bottom: 5px;
 }
 
-                        /*  Activité à marseille */
+/*  Activité à marseille */
 .section-marseille {
     width: 100%;
     margin-bottom: 20px;
-
 }
 
 .section-marseille h2 {
     padding-bottom: 20px;
     margin-top: 40px;
-
 }
 
 .article-marseille {
@@ -347,9 +326,7 @@ p {
 
 .section-marseille {
     width: 100%;
-
 }
-
 
 .div-marseille {
     display: flex;
@@ -371,21 +348,16 @@ p {
 .article-marseille h4 {
     text-align: center;
     padding-bottom: 20px;
-
 }
 
 /*   fooooter */
-
 footer {
     width: 100%;
     display: flex;
     justify-content: space-around;
     background-color: var(--main-bg-color);
-     margin: 20px; 
+    margin: 20px;
     padding-bottom: 20px;
-
-
-
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
@@ -400,7 +372,6 @@ footer {
 
     p {
         font-size: 1rem;
-
     }
 
     .filters {
@@ -415,7 +386,6 @@ footer {
         gap: 2px;
         padding: 3px 8px;
         margin-left: 0;
-
     }
 
     .filters-list {
@@ -454,27 +424,22 @@ footer {
         font-size: 13px;
     }
 
-
     .article-marseille h4 {
         font-size: 14px;
-
     }
 
 }
 
-
-                      /* Small devices (phones, less than 768px) */
+/* Small devices (phones, less than 768px) */
 
 @media (max-width: 768px) {
 
     h2 {
         font-size: 12px;
-
     }
 
     .main-container {
         min-width: 375px;
-
     }
 
     nav {
@@ -492,25 +457,22 @@ footer {
         padding: 0;
         margin: 0;
         width: 100%;
-
     }
-
 
     .taille-logo {
         width: 80px;
         height: auto;
-
     }
 
     ul li:hover {
         text-decoration: none;
-
     }
+       ul li.border-1 {
+  color: blue;
+   }
 
     ul {
         border-bottom: 2px solid #e2e7ec;
-
-
         border-bottom: 2px solid transparent;
         /* crée l’espace */
         background: linear-gradient(to right, #0065FC 50%, #e2e7ec 50%);
@@ -519,17 +481,18 @@ footer {
         background-position: bottom left;
         background-repeat: no-repeat;
         padding-bottom: 20px;
-
     }
 
     .logo-recherche {
         display: block;
         background-color: var(--main-color);
-
     }
 
     button[ type="submit"] {
         display: none;
+    }
+    .logo-recherche
+    { border: none;
 
     }
 
@@ -543,7 +506,12 @@ footer {
     }
 
     .filter-btn {
-        width: 150px;
+        width: 130px;
+    }
+    .espace
+    {
+     margin-bottom: 0px;
+     padding-bottom: 0px;
     }
 
     .hebergements-and-populaires {
@@ -557,20 +525,16 @@ footer {
 
     .heberge {
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-
     }
 
     .hebergements {
         order: 2;
         background-color: transparent;
-
     }
 
     .hebergements {
         width: 100%;
-
     }
-
 
     .image-heberge {
         display: flex;
@@ -583,7 +547,6 @@ footer {
         width: 100%;
     }
 
-
     .populaires {
         width: 100%;
         margin-top: 50px;
@@ -593,13 +556,11 @@ footer {
         display: flex;
         flex-direction: column;
         order: 1;
-
     }
 
     .populaires-cards a {
         width: 100%;
     }
-
 
     .div-marseille {
         display: flex;
@@ -612,8 +573,6 @@ footer {
         flex-direction: column;
         padding-left: 20px;
         margin: 0px;
-
     }
 
-    /* ... */
 }
