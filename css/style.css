@@ -38,10 +38,6 @@ nav {
     margin-bottom: 30px;
 }
 
-.ligne-horizontal {
-    display: none;
-}
-
 nav ul {
     display: flex;
     list-style: none;
@@ -82,8 +78,11 @@ header p {
 }
 
 .location input {
-    border: none;
-    outline: none;
+     border-left: none;
+     border-right: none;
+     border-bottom: 0.5px solid rgba(158, 149, 149,0.2);
+       border-top: 0.5px solid rgba(158, 149, 149, 0.2);
+     outline: none; 
     background: white;
     margin-left: 8px;
     font-size: 14px;
@@ -320,7 +319,6 @@ p {
 .article-marseille {
     background-color: white;
     border-radius: 20px;
-    filter: drop-shadow(0px 3px 15px rgba(16, 16, 16, 0.1));
     gap: 15px;
 }
 
@@ -333,7 +331,6 @@ p {
     flex-direction: row;
     justify-content: space-between;
     gap: 10px;
-
     margin: 0;
 }
 
@@ -471,22 +468,25 @@ footer {
   color: blue;
    }
 
-    ul {
-        border-bottom: 2px solid #e2e7ec;
-        border-bottom: 2px solid transparent;
-        /* crée l’espace */
-        background: linear-gradient(to right, #0065FC 50%, #e2e7ec 50%);
-        background-size: 100% 2px;
-        /* largeur 100%, hauteur = épaisseur bordure */
-        background-position: bottom left;
+    nav{ 
+
+         background: linear-gradient(to right, #0065FC 50%, #e2e7ec 50%);
+         background-size: 100% 2px;  
+         /* largeur 100%, hauteur = épaisseur bordure  */
+          background-position: bottom left; 
         background-repeat: no-repeat;
-        padding-bottom: 20px;
+         padding-bottom: 20px; 
+       
     }
 
-    .logo-recherche {
-        display: block;
-        background-color: var(--main-color);
-    }
+     .logo-recherche {
+         display: block;
+         background-color: var(--main-color);
+        border-radius: 5px;
+         /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); */
+         box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
+        
+    } 
 
     button[ type="submit"] {
         display: none;
@@ -513,41 +513,34 @@ footer {
      margin-bottom: 0px;
      padding-bottom: 0px;
     }
-
     .hebergements-and-populaires {
         display: flex;
         flex-direction: column;
     }
-
     .hebergements-and-populaires .hebergements {
         background-color: transparent;
     }
-
     .heberge {
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     }
-
     .hebergements {
         order: 2;
         background-color: transparent;
     }
-
     .hebergements {
         width: 100%;
     }
-
     .image-heberge {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin: 0;
     }
-
     .image-heberge a {
         width: 100%;
     }
-
     .populaires {
+        order: 1;
         width: 100%;
         margin-top: 50px;
     }
