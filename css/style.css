@@ -157,7 +157,7 @@ button[ type="submit"]:hover {
     gap: 15px;
     align-items: center;
     margin-bottom: 20px;
-}
+} 
 
  .fa-solid.fa-info {
     font-size: 14px;
@@ -504,15 +504,16 @@ footer {
 
     .search-box {
         border-radius: 10px;
+
     }
 
-    .logo-recherche {
+     .logo-recherche {
         display: block;
         background-color: var(--main-color);
         border-radius: 10px;
         padding: 5px;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    }
+    } 
 
     button[ type="submit"] {
         display: none;
