@@ -16,6 +16,7 @@
 /* nav nav nav nav  */
 .taille-logo {
     width: 50px;
+    padding-top: 20px;
 
 }
 
@@ -35,19 +36,26 @@ body p {
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:flex-start;
     margin-bottom: 30px;
+    margin-top: 0px;
+    }
+ul li 
+  {padding-top: 10px;
+
 }
 
 nav ul {
     display: flex;
     list-style: none;
-    gap: 40px;
+     gap: 40px; 
+     margin-top: 0;
+     
 }
-
 ul li:hover {
     color: blue;
-    text-decoration: overline;
+    border-top: 2px solid blue ;
+    
 }
 
 header p {
@@ -59,7 +67,7 @@ header p {
     display: flex;
     align-items: center;
     border: 1px solid var(--filter-bg-colord);
-    border-radius: 10px;
+    border-radius: 20px;
     overflow: hidden;
     width: fit-content;
     background-color: #f8f8f8;
@@ -95,13 +103,13 @@ button[ type="submit"] {
     background-color: var(--main-color);
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 13px 20px;
     cursor: pointer;
     font-weight: bold;
 }
 
 button[ type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #1a61ac;
 }
 
 .logo-recherche {
@@ -151,14 +159,17 @@ button[ type="submit"]:hover {
     margin-bottom: 20px;
 }
 
-.round {
-    border-radius: 50%;
-    border: 1px solid #dfd7d7;
+ .fa-solid.fa-info {
+    font-size: 14px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+     line-height: 20px;
+     border-radius: 50%;
+    border: 2px solid #dbd8d8;
+    
 }
 
-.round img {
-    padding: 2px;
-}
 
 body {
     display: flex;
@@ -170,7 +181,9 @@ body {
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
-}
+    margin-top: 0;
+    padding-top: 0;
+    }
 
 a {
     color: inherit;
@@ -194,7 +207,7 @@ a {
 }
 
 .card-title {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .euro {
@@ -367,11 +380,14 @@ footer {
 
 @media (max-width: 1024px) {
     h1 {
-        font-size: 15px;
+        font-size: 16px;
     }
+    .section-title {
+    font-size: 20px;
+}
 
     p {
-        font-size: 1rem;
+        font-size: 12px;
     }
 
     .filters {
@@ -434,9 +450,12 @@ footer {
 
 @media (max-width: 768px) {
 
-    h2 {
-        font-size: 12px;
+     p, span {
+        font-size: 14px;
     }
+    .section-title {
+    font-size: 14px;
+}
 
     .main-container {
         min-width:320px;
