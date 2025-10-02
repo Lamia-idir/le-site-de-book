@@ -352,7 +352,7 @@ p {
 
 .div-marseille img {
     width: 100%;
-    height: 300px;
+    height: 350px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     object-fit: cover
@@ -411,7 +411,9 @@ footer {
 
     .hebergements-and-populaires {
         flex-direction: column;
+    
     }
+
 
     .hebergements {
         width: 100%;
@@ -450,6 +452,9 @@ footer {
 
 @media (max-width: 768px) {
 
+    body
+    {margin: none;
+    }
      p, span {
         font-size: 14px;
     }
@@ -503,9 +508,13 @@ footer {
     }
 
     .search-box {
-        border-radius: 10px;
-
-    }
+        border-radius: 15px;
+        width: 249px;
+    } 
+    .location input {
+    font-size: 12px;
+    
+}
 
      .logo-recherche {
         display: block;
@@ -534,17 +543,27 @@ footer {
     }
 
     .filter-btn {
-        width: 130px;
+        width: 118px;
+        font-size: 11px;
+    }
+    .filter-btn img {
+        width:20px;
     }
 
     .espace {
         margin-bottom: 0px;
         padding-bottom: 0px;
     }
+    .espace span
+    { font-size: 12px;
+
+    };
 
     .hebergements-and-populaires {
         display: flex;
         flex-direction: column;
+         align-items: center; 
+        margin: 0;
     }
 
     .hebergements-and-populaires .hebergements {
@@ -557,16 +576,15 @@ footer {
 
     .hebergements {
         order: 2;
-        background-color: transparent;
-    }
-
-    .hebergements {
+      background-color: transparent;
         width: 100%;
     }
+
 
     .image-heberge {
         display: flex;
         flex-direction: column;
+        gap: 20px;
         align-items: center;
         margin: 0;
     }
@@ -578,8 +596,21 @@ footer {
     .populaires {
         order: 1;
         width: 100%;
-        margin-top: 50px;
+        margin-top: 10px;
+        padding-left: 50px;
+        padding-right:50px;
+
     }
+    .main-container
+    { margin-left: none;
+      margin-right: none;
+    }
+    .hebergements-and-populaires section {
+    width: 100%;
+    border-radius:0px;
+     box-sizing: content-box; 
+    margin-left: 0;
+}
 
     .populaires-cards {
         display: flex;
@@ -595,13 +626,20 @@ footer {
         display: flex;
         flex-direction: column;
     }
+     /* .section-marseille
+     {
+        margin-top: 5px;
 
+     } */
     footer {
         width: 100%;
         display: flex;
         flex-direction: column;
+        justify-content:center;
         padding-left: 20px;
-        margin: 0px;
+        box-sizing: content-box;
+        margin: 0;
+       
     }
 
 }
