@@ -67,45 +67,46 @@ header p {
 /* bouton recherche  */
 .search-box {
     display: flex;
-    justify-content: flex-start;
-    /* align-items: center; */
+    /* justify-content: flex-start; */
+    align-items: center;
     border: 1px solid var(--filter-bg-colord);
-    border-radius: 20px;
+    border-radius: 10px;
     overflow: hidden;
      width:fit-content;
-    background-color: #f8f8f8;
-}
+    background-color: #edeaea;
+   }
+   .loc{
+    width: 18px;
+    height: 18px;
+     padding: 10px 15px;
+     /* width: fit-content; */
+    /* text-align: center; */
+    }
 
-.location img {
-    width: 20px;
-    height: auto;
-    padding: 6px;
-
-}
-
-.color-bag {
+/* .color-bag {
     background-color: rgb(241, 237, 237);
     padding: 4px;
-}
+} */
 
-.location {
+/* .location {
     display: flex;
-}
+} */
 
-.location input {
-    flex: 1;
+ input[ type="search"]{ 
     border-left: none;
     border-right: none;
     border-bottom: 0.5px solid rgba(158, 149, 149, 0.2);
     border-top: 0.5px solid rgba(158, 149, 149, 0.2);
     outline: none;
     background: white;
-    padding-left: 8px;
+    padding-left: 10px;
     font-size: 14px;
     font-weight: bold;
+     padding-top: 13px;
+     padding-bottom:13px;
 }
 
-button[ type="submit"] {
+button[ type="submit"].lost {
     background-color: var(--main-color);
     color: white;
     border: none;
@@ -470,11 +471,16 @@ footer {
             min-width: 320px;
             padding: 0;
         }
-        p,
-        span {
+        p, span {
             font-size: 14px;
         }
 
+        h1
+        { 
+          margin-left: 10px;
+          
+        }
+        
         .section-title {
             font-size: 14px;
         }
@@ -519,41 +525,60 @@ footer {
             padding-bottom: 20px;
 
         }
-        .search-box {
+        /* .logo-recherche{
+            
+              padding: 10px 15px;
+    
             border-radius: 15px;
-            width:70%;
-            margin-left: 20px;
-        }
+             margin-left: 20px;
+              overflow: hidden;
+          }  */
 
-        .location input {
+         input [type="search"] {
             font-size: 12px;
+        }
+          .logo-recherche {
+             background-color: var(--main-color); 
+             border-radius: 10px;
+             padding: 6px;
+             padding-left: 10px;
+             padding-right: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+           
+        } 
+        /* .logo-recherche img
+        { width:50px;
+          height: 50px;
+
+        } */
+         button[type="submit"].lost{
+            display: none;
         }
         .logo-recherche {
             display: block;
-            background-color: var(--main-color);
-            border-radius: 10px;
-            padding: 5px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            /* background-color: var(--main-color); */
             border: none;
+        } 
+        .search-box
+        {  margin-left: 15px;
+            
         }
-        button[ type="submit"] {
-            display: none;
-        }
+
 
         /* filters */
         .filters-list {
-            /* display: grid;
+             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: auto auto;
             gap: 10px;
-            margin-left: 0;
-            justify-content: center;
-             align-content: center;  */
+            margin-left: 10px;
+            /* justify-content: center;
+             align-content: center;  
              display: flex;
              flex-direction: row;
              flex-wrap: wrap;
              justify-content: center;
-             align-items: center;
+             align-items: center; */
         }
         .roman
         {
@@ -566,7 +591,7 @@ footer {
      }
 
         .filter-btn {
-            width: 45%;
+            width: 150px;
             font-size: 11px;
         }
 
@@ -581,7 +606,17 @@ footer {
 
         .espace span {
             font-size: 12px;
+        
         }
+         .espace, .filters span, header p
+        {margin-left: 10px;
+
+        }
+         .filters span
+        {margin-left: 15px;
+
+        }
+
 
         .hebergements-and-populaires {
             display: flex;
