@@ -344,7 +344,6 @@ p {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     height: 380px;
     
-
 }
 
 .section-marseille {
@@ -523,20 +522,10 @@ footer {
 
             background: linear-gradient(to right, #0065FC 50%, #e2e7ec 50%);
             background-size: 100% 2px;
-            /* largeur 100%, hauteur = épaisseur bordure  */
             background-position: bottom left;
             background-repeat: no-repeat;
             padding-bottom: 20px;
-
         }
-        /* .logo-recherche{
-            
-              padding: 10px 15px;
-    
-            border-radius: 15px;
-             margin-left: 20px;
-              overflow: hidden;
-          }  */
 
          input [type="search"] {
             font-size: 12px;
@@ -548,19 +537,13 @@ footer {
              padding-left: 10px;
              padding-right: 10px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-           
         } 
-        /* .logo-recherche img
-        { width:50px;
-          height: 50px;
-
-        } */
+    
          button[type="submit"].lost{
             display: none;
         }
         .logo-recherche {
             display: block;
-            /* background-color: var(--main-color); */
             border: none;
         } 
         .search-box
@@ -576,13 +559,6 @@ footer {
             grid-template-rows: auto auto;
             gap: 10px;
             margin-left: 10px;
-            /* justify-content: center;
-             align-content: center;  
-             display: flex;
-             flex-direction: row;
-             flex-wrap: wrap;
-             justify-content: center;
-             align-items: center; */
         }
         .roman
         {
@@ -698,7 +674,6 @@ footer {
             flex-direction: column;
             justify-content: center;
             padding-left: 20px;
-            /* box-sizing: content-box; */
             margin: 0;
             gap: 30px;
 
