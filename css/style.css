@@ -127,8 +127,9 @@ button[ type="submit"]:hover {
 .filters {
     display: flex;
     gap: 20px;
-    align-items: center;
-    margin: 30px;
+    align-items: center; 
+     margin: 30px;
+     margin-left: 0;
 }
 
 .filters-list {
