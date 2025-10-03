@@ -451,12 +451,13 @@ footer {
     .article-marseille h4 {
         font-size: 14px;
     }
-    .article-marseille
-    { height: 300px;
+
+    .article-marseille {
+        height: 300px;
 
     }
-    .div-marseille img
-    {
+
+    .div-marseille img {
         height: 230px;
     }
 
@@ -470,16 +471,18 @@ footer {
 
     @media (max-width: 768px) {
 
-        .main-container{
+        .main-container {
             min-width: 320px;
             padding: 0;
             margin: 0;
         }
-          body 
-        { margin: 0;
-        
+
+        body {
+            margin: 0;
+
 
         }
+
         p,
         span {
             font-size: 14px;
@@ -489,6 +492,7 @@ footer {
             margin-left: 10px;
 
         }
+
         .section-title {
             font-size: 14px;
         }
@@ -612,8 +616,8 @@ footer {
             flex-direction: column;
             align-items: center;
             margin: 0;
-            padding-left:10px ;
-            padding-right:10px ;
+            padding-left: 10px;
+            padding-right: 10px;
         }
 
         .hebergements-and-populaires .hebergements {
@@ -625,11 +629,10 @@ footer {
             height: 250px;
             width: 100%;
         }
-         
-        .heberge img
-        {
-        height:180px;
-    }
+
+        .heberge img {
+            height: 180px;
+        }
 
         .hebergements {
             order: 2;
@@ -684,23 +687,24 @@ footer {
         .div-marseille {
             display: flex;
             flex-direction: column;
-            padding-left: 10px ;
-            padding-right:10px;
-           
-        }
-        .article-marseille
-        { height: 250px;
+            padding-left: 10px;
+            padding-right: 10px;
 
         }
-        .div-marseille img
-        {
-        height: 200px;
+
+        .article-marseille {
+            height: 250px;
+
         }
-        .section-title
-        {
-          padding-left:10px;
-    
-        } 
+
+        .div-marseille img {
+            height: 200px;
+        }
+
+        .section-title {
+            padding-left: 10px;
+
+        }
 
         footer {
             width: 100%;
