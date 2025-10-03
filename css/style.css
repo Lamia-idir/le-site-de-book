@@ -460,12 +460,16 @@ footer {
 
     @media (max-width: 768px) {
 
-        .main-container {
+        .main-container{
             min-width: 320px;
             padding: 0;
             margin: 0;
         }
+          body 
+        { margin: 0;
+        
 
+        }
         p,
         span {
             font-size: 14px;
@@ -598,6 +602,8 @@ footer {
             flex-direction: column;
             align-items: center;
             margin: 0;
+            padding-left:10px ;
+            padding-right:10px ;
         }
 
         .hebergements-and-populaires .hebergements {
@@ -661,7 +667,15 @@ footer {
         .div-marseille {
             display: flex;
             flex-direction: column;
+            padding-left: 10px ;
+            padding-right:10px;
+           
         }
+        .section-title
+        {
+          padding-left:10px;
+    
+        } 
 
         footer {
             width: 100%;
