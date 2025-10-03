@@ -170,6 +170,7 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .main-container {
@@ -450,6 +451,14 @@ footer {
     .article-marseille h4 {
         font-size: 14px;
     }
+    .article-marseille
+    { height: 300px;
+
+    }
+    .div-marseille img
+    {
+        height: 230px;
+    }
 
     footer {
         gap: 100px;
@@ -613,7 +622,14 @@ footer {
 
         .heberge {
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            height: 250px;
+            width: 100%;
         }
+         
+        .heberge img
+        {
+        height:180px;
+    }
 
         .hebergements {
             order: 2;
@@ -671,6 +687,14 @@ footer {
             padding-left: 10px ;
             padding-right:10px;
            
+        }
+        .article-marseille
+        { height: 250px;
+
+        }
+        .div-marseille img
+        {
+        height: 200px;
         }
         .section-title
         {
