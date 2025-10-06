@@ -475,13 +475,13 @@ footer {
             min-width: 320px;
             padding: 0;
             margin: 0;
+            box-sizing: border-box;
         }
 
-        body {
+          body {
             margin: 0;
-
-
-        }
+            box-sizing: border-box;
+        }  
 
         p,
         span {
@@ -503,26 +503,23 @@ footer {
             justify-content: flex-start;
             align-items: center;
             gap: 16px;
-            padding: 16px;
+            padding: 16px; 
         }
 
         ul {
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
             padding: 0;
             margin: 0;
             width: 100%;
         }
-
         .taille-logo {
             width: 80px;
             height: auto;
         }
-
         ul li:hover {
             text-decoration: none;
         }
-
         ul li.border-1 {
             color: blue;
         }
@@ -569,6 +566,7 @@ footer {
             grid-template-rows: auto auto;
             gap: 10px;
             margin-left: 10px;
+            box-sizing: border-box;
         }
 
         .roman {
@@ -618,6 +616,7 @@ footer {
             margin: 0;
             padding-left: 10px;
             padding-right: 10px;
+            box-sizing: border-box;
         }
 
         .hebergements-and-populaires .hebergements {
@@ -657,8 +656,9 @@ footer {
             order: 1;
             width: 100%;
             margin-top: 10px;
-            padding-left: 50px;
-            padding-right: 50px;
+            padding-left: 10px;
+            padding-right: 10px; 
+            box-sizing: border-box;
 
         }
 
@@ -689,6 +689,7 @@ footer {
             flex-direction: column;
             padding-left: 10px;
             padding-right: 10px;
+            box-sizing: border-box;
 
         }
 
@@ -706,16 +707,20 @@ footer {
 
         }
 
-        footer {
-            width: 100%;
+           footer {
+             width: 100%; 
             display: flex;
             flex-direction: column;
             justify-content: center;
-            padding-left: 20px;
+            padding-left: 20px; 
             margin: 0;
             gap: 30px;
-
-        }
+            box-sizing: border-box;
+            
+        } 
+          html, body {
+           overflow-x: hidden;
+           }
     }
 
 
