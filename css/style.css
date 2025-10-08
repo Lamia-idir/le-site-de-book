@@ -606,6 +606,11 @@ footer {
             margin-left: 15px;
 
         }
+        .marge span 
+        { font-size: 14px;
+          padding-right: 50px;
+
+        }
         .hebergements-and-populaires {
             display: flex;
             flex-direction: column;
