@@ -97,6 +97,8 @@ input[ type="search"] {
     font-weight: bold;
     padding-top: 15px;
     padding-bottom: 15px;
+
+
 }
 
 button[ type="submit"].lost {
@@ -541,6 +543,7 @@ footer {
 
         input [type="search"] {
             font-size: 20px;
+            width: 1em ;
         }
 
         .logo-recherche {
@@ -557,6 +560,10 @@ footer {
         .search-box {
             margin-left: 15px;
         }
+        input[ type="search"]
+        {
+            width: 14em;
+        }
         /* filters */
         .filters-list {
             display: grid;
@@ -564,7 +571,7 @@ footer {
             grid-template-rows: auto auto;
             gap: 10px;
             margin-left: 10px;
-            width: 85%;
+            width: 18em;
             max-width: 400px;
         }
         .roman {
