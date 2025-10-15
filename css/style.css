@@ -431,7 +431,7 @@ footer {
             width: 100%;
         }
         nav ul li:first-child {
-        color:blue;
+        color: var(--main-color)
         }
         .taille-logo {
             width: 80px;
