@@ -292,9 +292,6 @@ p {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     height: 380px;
 }
-.section-marseille {
-    width: 100%;
-}
 .div-marseille {
     display: flex;
     flex-direction: row;
@@ -432,6 +429,9 @@ footer {
             padding: 0;
             margin: 0;
             width: 100%;
+        }
+        nav ul li:first-child {
+        color:blue;
         }
         .taille-logo {
             width: 80px;
