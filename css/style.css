@@ -66,13 +66,17 @@ header p {
      overflow: hidden; 
      width:fit-content; 
 }
-  .loc {
-    width: 17px;
-    height: 17px;
-} 
+   .fa-solid .fa-location-dot {
+    width: 20px;
+    height: 20px;
+     }
+     .loc 
+     { color: gray
+
+     }
 .icon-loc {
   background-color:var(--main-bg-color);
-  padding: 16px 15px; 
+  padding: 24px 15px; 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -394,7 +398,7 @@ footer {
         margin: 0;
     }
     /* Small devices (phones, less than 768px) */
-    @media (max-width: 768px) {
+    @media (max-width: 767.98px) {
         .main-container {
             min-width: 320px;
             padding: 0;
@@ -440,9 +444,9 @@ footer {
         ul li:hover {
             text-decoration: none;
         }
-        ul li.border-1 {
+         /* ul li.border-1 {
             color: blue;
-        }
+        }  */
         nav {
 
             background: linear-gradient(to right, #0065FC 50%, #e2e7ec 50%);
@@ -458,10 +462,11 @@ footer {
         .logo-recherche {
              display: block; 
             border: none;
-             background-color: var(--main-color); 
+             background-color: var(--main-color);  
             border-radius: 15px;
-            padding: 9px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            padding: 15px;
+
+            
         }
         button[type="submit"].lost {
             display: none;
@@ -473,7 +478,11 @@ footer {
         {
             width: 14em;
         }
-        /* filters */
+        .wite
+        { color: white;
+        
+        }
+               /* filters */
         .filters-list {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -483,12 +492,10 @@ footer {
             width: 18em;
             max-width: 400px;
         }
-        .roman {
-            background: #DEEBFF;
-        }
-        .special {
+         .special {
             background-color: transparent;
-        }
+             }
+
          .filter-btn {
             font-size:12px ;
             padding: 8px;
