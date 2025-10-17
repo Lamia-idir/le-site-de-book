@@ -442,7 +442,7 @@ footer {
         ul li:hover {
             text-decoration: none;
         }
-        
+
          /* ul li.border-1 {
             color: blue;
         }  */
@@ -596,6 +596,7 @@ footer {
         }
         .div-marseille img {
             height: 200px;
+            object-fit: cover;
         }
         .section-title {
             padding-left: 10px;
