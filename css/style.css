@@ -71,11 +71,10 @@ header p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid var(--filter-bg-colord);
     border-radius: 15px;
     overflow: hidden;
     width: fit-content;
-    border: 0.3px solid rgba(236, 229, 229, 0.2);
+    border: 1px solid rgba(221, 211, 211, 0.2);
 }
 .fa-solid .fa-location-dot {
     width: 20px;
@@ -88,18 +87,15 @@ header p {
 
 .icon-loc {
     background-color: var(--main-bg-color);
-    padding: 24px 15px;
+    padding: 26px 15px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 input[ type="search"] {
-    border-left: none;
-    border-right: none;
-    border-bottom: 0.5px solid rgba(158, 149, 149, 0.2);
-    border-top: 0.5px solid rgba(158, 149, 149, 0.2);
-    outline: none;
+    outline: none;  
+    border: none;
     background: white;
     padding-left: 10px;
     font-size: 14px;
@@ -111,8 +107,8 @@ input[ type="search"] {
 button[ type="submit"].lost {
     background-color: var(--main-color);
     color: white;
-    border: none;
-    padding: 16px 20px;
+     border: none; 
+    padding: 18px 20px;
     cursor: pointer;
     font-weight: bold;
 }
@@ -256,34 +252,40 @@ a {
     overflow: hidden;
     width: fit-content;
     width: 100%;
-    padding: 4px;
-    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    padding: 4px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    height:200px;
+
 }
 
 .image-heberge {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap:30px;
     max-width: 100%;
     width: 100%;
     justify-content: center;
-
+    align-items: center;
+    box-sizing: border-box;
 }
-
 .image-heberge img {
     width: 100%;
-    height: 100px;
+     height:112px; 
     object-fit: cover;
     box-sizing: border-box;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 16 / 9; 
+    overflow: hidden; 
+
 }
 
 .text-im {
     padding-left: 10px;
     padding-bottom: 10px;
-}
+
+} 
 
 .heberge-title {
     padding-bottom: 6px;
@@ -391,8 +393,9 @@ p {
 }
 
 .article-marseille h4 {
-    text-align: center;
+    text-align:start;
     padding-bottom: 20px;
+    padding-left: 15px;
 }
 
 /*   fooooter */
@@ -552,18 +555,10 @@ footer {
             margin: 0;
             width: 100%;
         }
-
         .taille-logo {
             width: 80px;
             height: auto;
         }
-         /* nav ul li a:hover
-        { color: black;
-          border-top: 1px  solid transparent;
-          transition: color 60s ease, border-top-color 60s ease, padding-top 60s ease;
-
-        }  */
-         
               nav:has(ul li:first-child:active) { 
             background: linear-gradient(to right, #0065FC 50%, #e2e7ec 50%);
             background-size: 100% 2px;
@@ -584,12 +579,10 @@ footer {
         nav ul li:last-child:active {
             color: blue;
         }
-        @media(hover: hover) {
-        nav ul li a :hover {
-         color: transparent;
-         border-top: none;
-         }
-       }
+        nav ul li a:focus
+        { color:inherit;
+          border-top:1px solid transparent;  
+        }
         input [type="search"] {
             font-size: 20px;
             width: 1em;
@@ -600,7 +593,7 @@ footer {
             border: none;
             background-color: var(--main-color);
             border-radius: 15px;
-            padding: 15px;
+            padding: 17px;
         }
 
         button[type="submit"].lost {
@@ -672,50 +665,61 @@ footer {
         .hebergements-and-populaires {
             display: flex;
             flex-direction: column;
+            justify-content: flex-start;
             align-items: center;
-            margin: 0;
-            padding-left: 10px;
-            padding-right: 10px;
+             margin: 0;
+            padding-left: 15px;
+            padding-right: 15px;
+            box-sizing: border-box; 
+        }
+
+         .hebergements-and-populaires .hebergements {
+            background-color: white;
+            order: 2;
+            width: 100%;
+        }  
+        /* .hebergements
+        { background-color: white;
+            width: 100%;
+
+        } */
+        .heberge {
+            /* box-shadow: 0 4px 15px rgba(65, 57, 57, 0.2); */
+            /* height: 250px; */
+            width: 100%; 
+            max-width: 100%;
             box-sizing: border-box;
         }
-
-        .hebergements-and-populaires .hebergements {
-            background-color: transparent;
+        .hebergements-and-populaires .section-title
+        { padding-left: 10px;
+            padding-bottom: 0px;
+           margin-bottom: 15px; 
+            font-size: 20px;
         }
+         .heberge img {
+            height: 120px;
 
-        .heberge {
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-            height: 250px;
-            width: 100%;
-        }
-
-        .heberge img {
-            height: 180px;
-            object-fit: cover;
-        }
-
-        .hebergements {
-            order: 2;
-            background-color: transparent;
-            width: 100%;
-        }
-
+            object-fit: cover; 
+        } 
         .image-heberge {
             display: flex;
             flex-direction: column;
-            gap: 20px;
-            align-items: center;
-            margin: 0;
+            gap: 20px;  
+            background-color: white;
+             width: 100%; 
         }
-
-        .image-heberge a {
+        
+          .image-heberge a { 
             width: 100%;
-        }
+            box-sizing: border-box;
+            padding-left:5px ;
+            padding-right:5px ;
+        }  
 
         .populaires {
             order: 1;
             width: 100%;
-            margin-top: 10px;
+            margin-top: 20px;
             padding-left: 10px;
             padding-right: 10px;
             box-sizing: border-box;
@@ -724,10 +728,9 @@ footer {
         .hebergements-and-populaires section {
             width: 100%;
             border-radius: 0px;
-            box-sizing: content-box;
+            box-sizing: content-box; 
             margin-left: 0;
         }
-
         .populaires-cards {
             display: flex;
             flex-direction: column;
@@ -746,23 +749,24 @@ footer {
         .div-marseille {
             display: flex;
             flex-direction: column;
-            padding-left: 10px;
-            padding-right: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
             box-sizing: border-box;
         }
 
         .article-marseille {
-            height: 250px;
+            height: 200px;
         }
 
         .div-marseille img {
-            height: 200px;
+            height: 140px;
             object-fit: cover;
             width: 100%;
         }
 
-        .section-title {
-            padding-left: 10px;
+         .section-marseille .section-title {
+            padding-left: 20px;
+            font-size: 20px;
         }
 
         footer {
@@ -776,10 +780,10 @@ footer {
             box-sizing: border-box;
         }
 
-        html,
+         html,
         body {
             overflow-x: hidden;
-        }
+        } 
 
     }
 }
