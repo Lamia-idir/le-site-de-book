@@ -41,7 +41,7 @@ nav {
 }
 
 ul li {
-    padding-top: 20px;
+    padding-top: 18px;
 
 }
 
@@ -56,12 +56,12 @@ nav ul {
     display: flex;
     list-style: none;
     gap: 40px;
-    margin-top: 0;
+    margin-top: 0; 
 }
 nav ul li a:hover {
     color: blue;
     border-top: 2px solid blue;
-    padding-top: 18px;
+    padding-top: 16px;
 }
 header p {
     padding-bottom: 20px;
@@ -430,7 +430,7 @@ footer {
     ul li :focus {
         color: blue;
         border-top: 2px solid blue;
-        padding-top: 18px;
+        padding-top: 15px;
     }
 
     .filters {
