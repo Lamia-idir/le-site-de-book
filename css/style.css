@@ -567,9 +567,13 @@ footer {
             color: blue;
         }
 
-        nav ul li a:focus {
+         nav ul li a:focus {
             color: inherit;
             border-top: 1px solid transparent;
+        }  
+        nav ul li a:hover
+       { color:inherit;
+         border-top:none;
         }
 
         input [type="search"] {
