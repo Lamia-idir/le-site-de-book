@@ -569,7 +569,7 @@ footer {
 
          nav ul li a:focus {
             color: inherit;
-            border-top: 1px solid transparent;
+            border-top: none;
         }  
         nav ul li a:hover
        { color:inherit;
