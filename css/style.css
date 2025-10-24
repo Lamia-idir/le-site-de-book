@@ -59,7 +59,8 @@ header p {
     border-radius: 15px;
     overflow: hidden;
     width: fit-content;
-    border: 1px solid rgba(221, 211, 211, 0.2);
+    border: 1px solid rgba(228, 222, 222, 0.2);
+    margin-top: 20px;
 }
 
 .fa-solid .fa-location-dot {
@@ -73,7 +74,7 @@ header p {
 
 .icon-loc {
     background-color: var(--main-bg-color);
-    padding: 26px 15px;
+    padding: 23px 15px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,21 +87,15 @@ input[ type="search"] {
     padding-left: 10px;
     font-size: 14px;
     font-weight: bold;
-    padding-top: 15px;
-    padding-bottom: 15px;
 }
 
 button[ type="submit"].lost {
     background-color: var(--main-color);
     color: white;
     border: none;
-    padding: 18px 20px;
+    padding: 15px 20px;
     cursor: pointer;
     font-weight: bold;
-}
-
-button[ type="submit"]:hover {
-    background-color: #1a61ac;
 }
 
 .logo-recherche {
@@ -240,7 +235,6 @@ a {
     padding: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
-    /* height:200px; */
 
 }
 
@@ -513,10 +507,13 @@ footer {
         }
 
         h1 {
-            margin-left: 10px;
+            margin-left: 15px;
             font-size: 20px;
         }
+        .mar
+        { margin-left: 15px;
 
+        }
         .section-title {
             font-size: 14px;
         }
@@ -586,7 +583,7 @@ footer {
             border: none;
             background-color: var(--main-color);
             border-radius: 15px;
-            padding: 18px;
+            padding: 15px;
         }
 
         button[type="submit"].lost {
