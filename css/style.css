@@ -403,7 +403,7 @@ footer {
         font-size: 12px;
     }
 
-    ul li :focus {
+    ul li :active {
         color: blue;
         border-top: 2px solid blue;
         padding-top: 15px;
