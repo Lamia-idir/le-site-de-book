@@ -59,7 +59,7 @@ header p {
     border-radius: 15px;
     overflow: hidden;
     width: fit-content;
-    border: 1px solid rgba(228, 222, 222, 0.2);
+    border: 1px solid rgba(248, 240, 240, 0.2);
     margin-top: 20px;
 }
 
@@ -403,12 +403,15 @@ footer {
         font-size: 12px;
     }
 
-    ul li :active {
+    ul li :focus {
         color: blue;
         border-top: 2px solid blue;
         padding-top: 15px;
     }
+     ul li :active
+     { color: blue;
 
+     }
     .filters {
         display: flex;
         flex-direction: column;
