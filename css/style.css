@@ -575,12 +575,6 @@ footer {
        { color:inherit;
          border-top:none;
         }
-
-        input [type="search"] {
-            font-size: 20px;
-            width: 1em;
-        }
-
         .logo-recherche {
             display: block;
             border: none;
@@ -598,6 +592,7 @@ footer {
         }
 
         input[ type="search"] {
+            font-size: 20px;
             width: 14em;
         }
 
